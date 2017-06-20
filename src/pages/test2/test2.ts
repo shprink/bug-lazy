@@ -2,26 +2,25 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the TestPage page.
+ * Generated class for the Test2Page page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage({
-  segment: 'test/:id'
+  segment: 'test2/:id'
 })
 @Component({
-  selector: 'page-test',
-  templateUrl: 'test.html',
+  selector: 'page-test2',
+  templateUrl: 'test2.html',
 })
-export class TestPage {
+export class Test2Page {
 
-  pushPage: any = 'Test2Page';
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TestPage');
+    console.log('ionViewDidLoad Test2Page');
   }
 
 }
